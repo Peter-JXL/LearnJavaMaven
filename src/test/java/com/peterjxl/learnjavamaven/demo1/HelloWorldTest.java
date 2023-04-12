@@ -1,4 +1,4 @@
-package com.peterjxl.learnjavamavn.demo1;
+package com.peterjxl.learnjavamaven.demo1;
 import org.junit.Test;
 
 public class HelloWorldTest {
