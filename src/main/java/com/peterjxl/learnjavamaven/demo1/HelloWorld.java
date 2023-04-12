@@ -1,4 +1,4 @@
-package com.peterjxl.learnjavamavn.demo1;
+package com.peterjxl.learnjavamaven.demo1;
 
 public class HelloWorld {
     public static void main(String[] args) {
