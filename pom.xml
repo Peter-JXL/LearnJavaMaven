@@ -5,9 +5,12 @@
     <groupId>com.peterjxl</groupId>
     <artifactId>LearnJavaMaven</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
-    <name>LearnJavaMaven Maven Webapp</name>
-
+    <packaging>pom</packaging>
+    <modules>
+        <module>LearnJavaMaven_dao</module>
+        <module>LearnJavaMaven_service</module>
+        <module>LearnJavaMaven_web</module>
+    </modules>
 
     <!-- 统一管理jar包版本 -->
     <properties>
@@ -217,5 +220,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

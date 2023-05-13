@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 
 @Service
-public class ItemServiceImpl implements ItemsService {
+public class ItemsServiceImpl implements ItemsService {
 
     @Autowired
     private ItemsDao itemsDao;
